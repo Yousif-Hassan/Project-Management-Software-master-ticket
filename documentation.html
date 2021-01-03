@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ticket Systeem documentatie</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+       
+    </head>
+    <body>
+        <div class="container">
+            <h2>Ticket systeem documentatie</h2>
+            <p class="lead">
+                Hier kan je de user guide vinden.
+            </p>
+            <div class="alert alert-info">
+                <h4>responsieve documentatie</h4>
+                <p>deze documentatie beschrijft de werking van de applicatie</p>
+                <p>
+                    Selecteer de vereiste documentatie uit het onderstaande selectiemenu om deze naar boven te verplaatsen.</p>
+            </div>
+            <hr />
+
+            <div class="form-group">
+                <label for="sel1">selecteer sectie:</label>
+                <select class="form-control" id="show_control">
+                    <option value="users_guide">Users Guide</option>
+                    <option value="dev_docs">Developer Docs</option>
+                </select>
+            </div>
+
+            <div id="sectors">
+                <div class="panel panel-danger" id="users_guide">
+                    <div class="panel-heading">Users Guide</div>
+                    <div class="panel-body">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Dstandaard <sup>eerste installatie opties</sup></div>
+                            <div class="panel-body">
+                                <h4>talen:</h4>
+                                
+                                -Nederlands
+                                <h4>Login:</h4>
+                                <div><b>User:</b> Admin@yousif.com</div>
+                                <div><b>Pass:</b> Admin</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">How To <sup>stap voor stap</sup></div>
+                            <div class="panel-body">
+                                <b>Creeer projecten:</b>
+                                <ol>
+                                    <li>Ga naar /home page</li>
+                                    <li>klik <i class="fa fa-plus-square"></i> icoon rechtsbovenin</li>
+                                    <li>typ het naam van het project (<u>moet 3 of meer symbolen bevatten, aleen A-Za-z0-9_</u>)</li>
+                                    <li>
+                                        De afkorting wordt automatisch geschreven, als u wilt, kunt u deze niet wijzigen. Alleen letters, 3 symbolen</li>
+                                    <li>Click om een button aan te maken</li>
+                                </ol>
+
+                                <b>wijzig projecten:</b>
+                                <p><span class="glyphicon glyphicon-alert text-warning"></span> 
+                                    Projecten kunnen worden bewerkt vanaf / home page en vanuit / settings (daar moet je beheerder zijn)</p>
+                                <ul>
+                                    <li>
+                                        
+                                          Bewerken vanaf de startpagina (voor niet-beheerders)
+                                        <ol>
+                                            <li>ga naar /home page</li>
+                                            <li>klik <i class="fa fa-plus-square"></i> iccon rechtsbovenin</li>
+                                            <li>kies het gewenste project</li>
+                                            <li>verander naam of afkortingen</li>
+                                            <li>klik button aanmaken</li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        
+                                            Bewerken vanaf de instellingenpagina (alleen voor beheerders)
+                                        <ol>
+                                            <li>Ga anar /settings pagina (vanaf /home en <i class="fa fa-cog"></i> icoon rechtsbovenin)</li>
+                                            <li>Ga naar <b>Projecten</b> link vanaf linkerkant van menu</li>
+                                            <li>daar kan je projecten toevoegen, verwijderen of bewerken</li>
+                                        </ol>
+                                    </li>
+                                </ul>
+
+                                <b>Selecteren van projecten:</b>
+                                <ol>
+                                    <li>Ga naar /home page</li>
+                                    <li>Kies uit het geselecteerde menu het benodigde project</li>
+                                    <li>daar kan je projecten toevoegen, verwijderen of bewerken</li>
+                                    <li>onderstaande links leiden naar tickets / wiki van dit project
+                                       </li>
+                                </ol>
+
+                                <b>Creer nieuwe ticket:</b>
+                                <ol>
+                                    <li>Ga naar /home page</li>
+                                    <li>Kies uit het geselecteerde menu het benodigde project</li>
+                                    <li>Klik ticket link beneden</li>
+                                    <li>Ga naar <b>Nieuwe probleem</b> Button</li>
+                                    <li>type in de benodigde velden (*)</li>
+                                    <li>klik <b>Create</b> button</li>
+                                </ol>
+
+                                <b>wijzig ticket:</b>
+                                <ol>
+                                    <li>Ga naar ticket preview</li>
+                                    <li>
+                                        Klik linksboven op het ticket op de knop Bewerken</li>
+                                    <li>maak je wijziging</li>
+                                    <li>klik<b>update</b> button</li>
+                                </ol>
+
+                                <b>verander ticket status:</b>
+                                <p>
+                                    Ticketstatussen kunnen worden gewijzigd vanaf het dashboard met 'slepen', vanuit ticketvoorbeeld of bij het bewerken van ticket</p>
+
+                                <b>Gebruik van volgsysteem</b>
+                                <ol>
+                                    <li>ga naar preview ticket</li>
+                                    <li>
+                                        Aan de rechterkant bij resolutie> 767 en onderaan bij resolutie  767 is het volgsysteem </li>
+                                    <li>vanaf <span class="glyphicon glyphicon-play"></span> 
+                                        het volgen van knoppen wordt gestart en de timer voor dit ticket gaat bovenaan de pagina bij het vernieuwen</li>
+                                    <li>tijd laagste van 1 minuut kan niet worden gered</li>
+                                    <li>Vanaf <span class="glyphicon glyphicon-plus"></span> button kan je tijd toevoegen</li>
+                                </ol>
+
+                                <b>Creeer wiki ruimte</b>
+                                <ol>
+                                    <li>Ga naar /home page</li>
+                                    <li>Kies uit het geselecteerde menu het benodigde project
+                                    </li>
+                                    <li>Klik wiki link beneden</li>
+                                    <li>Klik <b>Spaces</b> lijst aan de boven kant</li>
+                                    <li>Klik link aan de onderkant <b>Creeer nieuw eentje</b></li>
+                                    <li>Typ benodigde velden</li>
+                                    <li>Klik <b>Creeer</b> button</li>
+                                </ol>
+
+                                <b>Creeer wiki pagina</b>
+                                <ol>
+                                    <li>Ga naar /Home pagina</li>
+                                    <li>Kies uit het geselecteerde menu het benodigde project</li>
+                                    <li>klik wiki link beneden</li>
+                                    <li>KLik <b>Creeer</b> button aan de bovenkant van de pagina</li>
+                                    <li>kies ruimte waar de project naartoe gaat</li>
+                                    <li>
+                                        Typ de bovenliggende pagina voor uw pagina (uw pagina wordt een onderliggende pagina van ..) (niet vereist)</li>
+                                    <li>Kies template</li>
+                                    <li>Klik <b>Volgende</b> button</li>
+                                    <li>Typ naam in je pagina</li>
+                                    <li>Klik <b>Create</b> en update je content pagina als het nodig is</li>
+                                </ol>
+
+                                <b>Creeer wiki template</b>
+                                <ol>
+                                    <li>Ga naar /home pagina</li>
+                                    <li>Ga naar/ settings pagina (vanaf /home en<i class="fa fa-cog"></i> icoon rechtsbovenin)</li>
+                                    <li>klik <b>Wiki Templates</b> vanaf rechterzijde van het menu</li>
+                                    <li>beheer je templates</li>
+                                </ol>
+
+                                <b>beheer users</b>
+                                <ol>
+                                    <li>Ga naar / home pagina</li>
+                                    <li>Ga naar / settings pagina (vanaf /home en <i class="fa fa-cog"></i> icoon rechtsbovenin)</li>
+                                    <li>Klik <b>Profielen</b> vanaf rechterzijde van het menu</li>
+                                    <li>Beheer je gebruikers</li>
+                                </ol>
+
+                                <b>verander standaar taal <sup>
+                                    Je hebt de mogelijkheid om het voor elke gebruiker afzonderlijk te wijzigen!</sup></b>
+                                <ol>
+                                    <li>Ga naar / settings</li>
+                                    <li>Open 'general' pagina</li>
+                                    <li>Selecteer je taal</li>
+                                    <li>opslaan</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Privileges</div>
+                            <div class="panel-body">
+                                <b>Users privileges types</b>
+                                <ul>
+                                    <li>Admin
+                                        <ul>
+                                            <li>kan alles beheren in het systeem</li>
+                                        </ul>
+                                    </li>
+                                    <li>Super User
+                                        <ol>
+                                            <li>beheert alle tickets</li>
+                                            <li>creeert nieuwe ruimtes</li>
+                                            <li>creeert nieuwe paginas</li>
+                                            <li>bewerkt alle paginas</li>
+                                            <li>verwijdert alle paginas</li>
+                                            <li>verplaatst alle paginas</li>
+                                        </ol>
+                                    </li>
+                                    <li>User
+                                        <ol>
+                                            <li>
+                                                Alleen tickets toevoegen / bewerken die door mij zijn toegevoegd of aan mij zijn toegewezen</li>
+                                            <li>Mijn pagina's toevoegen / bewerken</li>
+                                        </ol>
+                                    </li>
+                                    <li>Watcher
+                                        <ol>
+                                            <li>heeft recht op geen en kan niks wijzigen tenzij het het systeem kraakt.</li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-danger" id="dev_docs">
+                    <div class="panel-heading">Developers Documentatie</div>
+                    <div class="panel-body">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">hard gecodeerd</div>
+                            <div class="panel-body">
+                                <span class="glyphicon glyphicon-alert text-danger"></span> In table <b>ticket_statuses</b> status <b>gesloten</b> moet met <span class="bg-danger">#4</span>! 
+                                dit is gecodeerd <span class="bg-danger">class Database</span>, method <span class="bg-danger">setTicket</span>
+                                
+                                 want als het ticket naar de status Gesloten wordt verplaatst, moet de ID voor deze status worden gebruikt.
+                                <br><br>
+                                <span class="glyphicon glyphicon-alert text-danger"></span> Privileges zijn geplaats in <b>inc/config.php</b>. deze nummers zijn cardcoded
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Plugins/Libraries</div>
+                            <div class="panel-body">
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> gecreerde wachtwoorden via <b><a href="https://github.com/dropbox/zxcvbn" target="_blank">zxcvbn</a></b> password generator (more powerful than google generator)</p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> Textarea-editor (voor ticketbeschrijving en pagina-inhoud) is <b><a href="http://ckeditor.com/" target="_blank">CKEditor</a></b></p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> creert interactieve charts voor je project <b><a href="http://www.highcharts.com/" target="_blank">Highcharts</a></b></p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> selectieve menu design<b><a href="https://silviomoreto.github.io/bootstrap-select/" target="_blank">Bootstrap-select</a></b></p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> responsieve design is met <b><a href="http://getbootstrap.com/" rel="nofollow" target="_blank">Bootstrap</a></b></p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> speciale symbolen gebruikt met <b><a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font-Awesome Icons</a> and Bootstrap Glyphicons</b></p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> datum kalender gebruikt met <b><a href="https://bootstrap-datepicker.readthedocs.org/en/latest/" target="_blank">Bootstrap-Datepicker Plugin</a></b></p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> <b><a href="http://jquery.com/" target="_blank">JQuery</a></b> is mandatory..</p>
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> <b><a href="https://github.com/PHPMailer/PHPMailer" target="_blank">PHPMailer</a></b> Class</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Code structuur</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><i class="fa fa-folder-open-o"></i> _html_parts <sup>(alle paginas)</sup>
+                                        <ul>
+                                            <li><i class="fa fa-folder-open-o"></i> error_codes
+                                                <ul>
+                                                    <li><i class="fa fa-file-code-o"></i> 403.php <sup>(wanneer systeem 403 aangeeft)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> 404.php <sup>(wanneer systeem 404 aangeeft)</sup></li>
+                                                </ul>
+                                            </li>
+                                            <li><i class="fa fa-folder-open-o"></i> tickets <sup>(alle paginas voor ticket sectie)</sup>
+                                                <ul>
+                                                    <li><i class="fa fa-file-code-o"></i> activity.php <sup>(home pagina van ticket sectie)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> dashboard.php <sup>(dashboard pagina in ticket sectie)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> newissue.php <sup>(new issue pagina in ticket sectie)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> view.php <sup>(ticket voorproef)</sup></li>
+                                                </ul>
+                                            </li>
+                                            <li><i class="fa fa-folder-open-o"></i> wiki <sup>(alle paginas voor wiki)</sup>
+                                                <ul>
+                                                    <li><i class="fa fa-file-code-o"></i> createspace.php <sup>(creert pagina voor wiki sectie)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> display.php <sup>(wiki ruimte en pagina voorproef)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> editpage.php <sup>(pagina voor editpagina)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> home.php <sup>(home pagina met activiteit wiki)</sup></li>
+                                                    <li><i class="fa fa-file-code-o"></i> public_preview.php <sup>(publieke voorproef pagine met hash voor wiki)</sup></li>
+                                                </ul>
+                                            </li>
+                                            <li><i class="fa fa-file-code-o"></i> exeption_page.php <sup>(
+                                                deze pagina is open als de website een uitzondering retourneert)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> down.php <sup>(wanneer systeem php error krijgt)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> footer.php <sup>(footer deel van de site)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> header.php <sup>(header deel van de site)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> home.php <sup>(site home pagina wanneer je ingelogd bent)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> login.php <sup>(login pagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> logout.php <sup>(logout redirectie)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> profile.php <sup>(profiel bekijken)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> settings.php <sup>(General instellingen pagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> tickets.php <sup>(tickets algemene pagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> wiki.php <sup>(wiki algemene pagina)</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-folder-open-o"></i> ajax <sup>Ajax called files</sup>
+                                        <ul>
+                                            <li><i class="fa fa-file-code-o"></i> activity.php <sup>(activiteit ophalen van de knop Meer weergeven op de startpagina van tickets)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> activity_settings.php <sup>(
+                                                activiteit ophalen van de knop Meer weergeven op de startpagina van de instellingen)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> activity_wiki.php <sup>(
+                                                activiteit ophalen van de knop Meer weergeven op de startpagina van de wiki)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> add_project.php <sup>(neem op wanneer project toevoegen word geplaats in home)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> assigntome.php <sup>(
+                                                wanneer klik op de knop Aan mij toewijzen in ticketvoorbeeld)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> dashboard.php <sup>(
+                                                deze wijziging van ticketstatussen wanneer tickets in dashboard worden verplaatst)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> getspaceinfo.php <sup>(
+                                                deze retourruimte-informatie bij bewerken vanaf de instellingenpagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> gettemplateinfo.php <sup>(
+                                                deze retoursjablooninformatie bij bewerken vanaf de instellingenpagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> getuserinfo.php <sup>(deze retourneert gebruikersinformatie bij bewerken vanaf de instellingenpagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> notifications_tickets.php <sup>(
+                                                deze retourmeldingen voor tickets sectie)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> notifications_wiki.php <sup>(
+                                                deze retourmeldingen voor de wiki-sectie)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> page_move.php <sup>(
+                                                wanneer ze een pagina uit hun voorbeeld verplaatsen)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> parent_suggestions.php <sup>(
+                                                wanneer u een nieuwe pagina maakt, krijgt u oudervarianten als u kind wilt zijn)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> resetemail.php <sup>(
+                                                dit roept wanneer iemand zijn wachtwoord reset vanaf de inlogpagina)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> settings_search.php <sup>(
+                                                resultaten retourneren van de instellingenpagina, bovenste zoekveld)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> space_key_check.php <sup>(
+                                                wanneer nieuwe ruimte wordt aangemaakt vanuit instellingen of wiki-sectie, controleert dit of de spatiebalk vrij is)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> tracker.php <sup>(
+                                                dit beheren tracker / start, stop, pauze, wissen / evenementen uit ticketvoorbeel)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> watchers.php <sup>(
+                                                verwijderen en toevoegen wanneer iemand klikt om ticket of wikipagina te bekijken)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> wiki_search.php <sup>(
+                                                resultaten retourneren wanneer iemand een wiki-zoekopdracht typt)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> getsyncmailinfo.php <sup>(
+                                                informatie retourneren voor synchronisatie-e-mailopties)</sup></li>
+                                            <li><i class="fa fa-file-code-o"></i> sync_conn_check.php <sup>(
+                                                werken met PHPMailer Class. Test de verbinding van e-mail voor synchronisatie)</sup></li>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-folder-open-o"></i> assets <sup>Design voor het systeem</sup> <B></B>
+                                        <ul>
+                                            <li><i class="fa fa-folder-open-o"></i> bootstrap-select-* <sup>Bootstrap Select plugin</sup>
+                                            <li><i class="fa fa-folder-open-o"></i> css <sup>css files</sup>
+                                            <li><i class="fa fa-folder-open-o"></i> fonts <sup>fonts</sup>
+                                            <li><i class="fa fa-folder-open-o"></i> imgs <sup>images</sup>
+                                            <li><i class="fa fa-folder-open-o"></i> js <sup>javascript files</sup>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-folder-open-o"></i> classes <sup>Classes of system</sup>
+                                        <ul>
+                                            <li><i class="fa fa-folder-open-o"></i> PHPMailer <sup>The <a href="https://github.com/PHPMailer/PHPMailer"><i class="fa fa-link" aria-hidden="true"></i>PHPMailer</a> Class</sup>
+                                            <li><i class="fa fa-file-code-o"></i> class.imap.php <sup>
+                                                Hier zijn methoden die e-mails ophalen uit een bepaald e-mailvak.</sup>
+                                            <li><i class="fa fa-file-code-o"></i> class.database.php <sup>
+                                                Database Class met alle vragen naar mysql class</sup>
+                                            <li><i class="fa fa-file-code-o"></i> class.main.php <sup>
+                                                Main Class laadt alle andere klassen, instellingenbestanden en beheert het laden van pagina's</sup>
+                                            <li><i class="fa fa-file-code-o"></i> class.mysql.php <sup>
+                                                Mysql Class is een databaseconnector en hier is een array met de foutopsporingsmodus met query's</sup>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-folder-open-o"></i> inc <sup>Opties voor het systeem</sup>
+                                        <ul>
+                                            <li><i class="fa fa-file-code-o"></i> config.php <sup>Configuraties van site / machtigingen, standaardafbeeldingen, gebruikte reguliere expressies /</sup>
+                                            <li><i class="fa fa-file-code-o"></i> db.php <sup>
+                                                Database verbindingsinstellingen / gebruiker, wachtwoord, host /</sup>
+                                            <li><i class="fa fa-file-code-o"></i> helpers.php <sup>
+                                                Handige functie voor website / base_url, redirect, etc.</sup>
+                                            <li><i class="fa fa-file-code-o"></i> settings.php <sup>
+                                                Enkele basisinstellingen voor systeem- / maximumaantalmeldingen, datumtypen, toegestane tekens voor pasgenerator, etc./</sup>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-folder-open-o"></i> lang <sup>Site talen</sup>
+                                        <ul>
+                                            <li><i class="fa fa-folder-open-o"></i> lang_EN.php <sup>standaard taal</sup>
+                                            <li><i class="fa fa-folder-open-o"></i> lang_EN.js <sup>standaard taal</sup><BR>OF
+                                                <li><i class="fa fa-folder-open-o"></i> lang_NL.php <sup>standaard taal</sup>
+                                                    <li><i class="fa fa-folder-open-o"></i> lang_NL.js <sup>standaard taal</sup>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-folder-open-o"></i> Crons <sup>bestanden voor cron</sup>
+                                    <li><i class="fa fa-folder-open-o"></i> Logs <sup>
+                                        Deze map bevat logbestanden</sup>
+                                    <li><i class="fa fa-folder-open-o"></i> templates <sup>
+                                        Sjablonen voor systeem</sup>
+                                        <ul>
+                                            <li><i class="fa fa-file-code-o"></i> activitystream.php <sup>
+                                                Template-html voor activiteitenstream in wiki, tickets en instellingen</sup>
+                                            <li><i class="fa fa-file-code-o"></i> list_users.php <sup>
+                                                Template html voor gebruikerslijst in instellingen en profiel-> lijst gebruikers</sup>
+                                        </ul>
+                                    </li>
+                                    <li><i class="fa fa-file-code-o"></i> .htaccess</li>
+                                    <li><i class="fa fa-file-code-o"></i> documentation.html</li>
+                                    <li><i class="fa fa-file-code-o"></i> index.php</li>
+                                    <li><i class="fa fa-file-code-o"></i> tables_default.sql</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Debug Mode</div>
+                            <div class="panel-body">
+                                <p><span class="glyphicon glyphicon-alert text-success"></span> 
+                                    Het systeem heeft een foutopsporingsmodus. Wanneer php constant <i>DEBUG_MODE</i> in <b>/inc/settings.php</b> is geplaatst naar <i>TRUE</i> 
+                                    onder aan de pagina worden alle mysql-queries weergegeven. Omleidingen werken niet en php herneemt alle fouten!</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Multi taal</div>
+                            <div class="panel-body">
+                                <p><span class="glyphicon glyphicon-alert text-info"></span> 
+                                    Om een ​​nieuwe taal te maken, moet u bestanden maken <b>.js</b> and <b>.php</b> in <i>/lang</i> 
+                                    directory in het vereiste formaat (u kunt het in de originele bestanden zien).</p>
+                                <p><span class="glyphicon glyphicon-alert text-info"></span> The array(property) <b>lang_php</b> in Class Main keeps all words in lang_ABBR.php file. Words in array are called from files. lang_ABBR.js is loaded from header and words are pasted in javascripts from loaded object.</p>
+                                <p><span class="glyphicon glyphicon-alert text-info"></span> ABBR-naam in js- en php-bestanden moet in HOOFDLETTERS zijn!</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Sync email account</div>
+                            <div class="panel-body">
+                                <p><span class="glyphicon glyphicon-alert text-info"></span> 
+                                    Om een ​​e-mailaccount te synchroniseren, stelt u gewoon parameters in op de instellingenpagina of wanneer u een project maakt vanaf de startpagina</p>
+                                <p><span class="glyphicon glyphicon-alert text-info"></span> Om e-mails van een e-mailaccount te kunnen vinden, moet dit zijn ingesteld <b>cron job</b> voor bestand <b>crons/fetch_imap.php</b>. 
+                                    Voor elke oproep zal fetch_imap alle projecten herhalen en hun connecties krijgen en e-mails voor hem ophalen.</p>
+                                <p><span class="glyphicon glyphicon-alert text-info"></span> 
+                                    E-mails ophalen is met php / imap, e-mails verzenden is met <a href="https://github.com/PHPMailer/PHPMailer"><i class="fa fa-link" aria-hidden="true"></i>PHPMailer</a> 
+                                    Klasse, hij wordt geladen vanuit de methode sendEmal in de hoofdklasse, daar kun je de opties van PHPMailer beheren.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Developers: </div>
+                        <div class="panel-body">
+                            <p><i class="glyphicon glyphicon-wrench"></i><span class="glyphicon glyphicon-user"><a href="mailto:yousif.hassan@rocva.nl"> YOUSIF HASSAN</a></span> 
+                                    <br>backend developer
+                                    ( PHP / DB / CLASS )
+                                    <hr>
+                            <p><i class="glyphicon glyphicon-wrench"></i><span class="glyphicon glyphicon-user"><a href="mailto:safouane.k@rocva.nl"> SAFOUANE ZAGHDOUD</a></span> 
+                                    <br>forntend developer 
+                                    ( HTML / BOOTSTRAP / JS )
+                                <hr>
+                                        <p class="glyphicon glyphicon-user"><A > AMIN NOUNOUH</A></p>
+                                        <br>Documentatie
+                                        (USER STORY / TO / FO )
+                            
+                                    
+                        </div>
+                </div>
+            </div> <!-- #sectoren -->
+        </div><!-- .container -->2
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#show_control").change(function () {
+                    $("#" + $(this).val()).prependTo("#sectors");
+                });
+            });
+        </script>
+    </body>
+</html>
