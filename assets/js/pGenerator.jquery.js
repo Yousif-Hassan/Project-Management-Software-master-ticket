@@ -1,4 +1,11 @@
-
+/*!
+ * pGenerator jQuery Plugin v1.0.0
+ * http://accountspassword.com/password-generator-jquery-plugin
+ *
+ * Created by AccountsPassword.com
+ * Released under the MIT License (Feel free to copy, modify or redistribute this plugin.)
+ *
+ */
 
 (function($){
   	var numbers_array = new Array(),
